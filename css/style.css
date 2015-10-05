@@ -25,12 +25,23 @@ input[type="button"],
 button,
 .ba-button{
 	display: inline-block;
+	border: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #FFF;
+	line-height: 40px;
+	height: 40px;
+	width: 140px;
+	font-weight: bold;
+	background: #00CD6B;
+	outline:none;
 }
+
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
 .ba-button:hover{
-
+	background: #55fa9b;
 }
 
 input[type="text"],
@@ -40,6 +51,14 @@ input[type="number"],
 input[type="tel"],
 textarea,
 select {
+	outline:none;
+	border: 2px solid #8C8989;
+	font-size: 14px;
+display: inline-block;
+height: 45px;
+width: 350px;
+padding-left: 15px;
+
 
 	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
@@ -53,6 +72,7 @@ input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
 select:focus {
+	box-shadow: 0 0 2px 2px #00CD6B;
 }
 
 .ba-container{
@@ -707,8 +727,8 @@ select:focus {
 /*ba-work-portfolio*/
 
 .ba-work__portfolio{
-padding-bottom: 53px;
-font-size: 0;
+	padding-bottom: 53px;
+	font-size: 0;
 }
 
 .ba-work__portfolio__row__picture{
@@ -748,50 +768,50 @@ font-size: 0;
 }
 
 .ba-about__about-us{
-padding-top: 44px;
-position: relative;
-padding-bottom: 20px;
+	padding-top: 44px;
+	position: relative;
+	padding-bottom: 20px;
 }
 
 .ba-about__about-us__picture{
-position: absolute;
-left: 0;
-top: 50px;
+	position: absolute;
+	left: 0;
+	top: 50px;
 
 }
 
 .ba-about__about-us p{
-display: inline-block;
-margin-left: 410px;
-clear: none;
-margin-top: 0;
-font-size: 14px;
-line-height: 22px;
+	display: inline-block;
+	margin-left: 410px;
+	clear: none;
+	margin-top: 0;
+	font-size: 14px;
+	line-height: 22px;
 }
 
 .ba-about__about-us p:last-child{
-margin-top: 8px;
+	margin-top: 8px;
 }
 
 .ba-about__statem-fact{
-padding-top: 16px;
+	padding-top: 16px;
 }
 
 .ba-about__statem-fact__fun-left{
-padding-left: 12px;
+	padding-left: 12px;
 }
 
 .ba-about__statem-fact__head{
-font-size: 24px;
-line-height: 22px;
-text-transform: uppercase;
-font-weight: bold;
+	font-size: 24px;
+	line-height: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .ba-about__statem-fact__text{
-font-size: 14px;
-line-height: 22px;
-margin-top: 17px;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 17px;
 }
 
 /*services*/
@@ -801,16 +821,16 @@ margin-top: 17px;
 }
 
 .ba-about__services__head{
-font-size: 24px;
-line-height: 22px;
-text-transform: uppercase;
-font-weight: bold;
-padding-top: 18px;
-padding-bottom: 28px;
+	font-size: 24px;
+	line-height: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-bottom: 28px;
 }
 
 .ba-about__services__menu__back{
-background-color: #EFEFEF;
+	background-color: #EFEFEF;
 }
 
 .ba-about__services__menu__element__botton{
@@ -822,74 +842,118 @@ background-color: #EFEFEF;
 }
 
 .ba-about__services__menu__element__botton__picture{
-height: 69px;
+	height: 69px;
 }
 
 .ba-about__services__menu__element__botton__picture__web{
-background: url("../img/services-1.png") 50% no-repeat;
+	background: url("../img/services-1.png") 50% no-repeat;
 }
 
 .ba-about__services__menu__element__botton__picture__phot{
-background: url("../img/services-2.png") 50% no-repeat;
+	background: url("../img/services-2.png") 50% no-repeat;
 }
 
 .ba-about__services__menu__element__botton__picture__seo{
-background: url("../img/services-3.png") 50% no-repeat;
+	background: url("../img/services-3.png") 50% no-repeat;
 }
 
 .ba-about__services__menu__element__botton__picture__app{
-background: url("../img/services-4.png") 50% no-repeat;
+	background: url("../img/services-4.png") 50% no-repeat;
 }
 
 .ba-about__services__menu__element__botton__name{
-font-size: 18px;
-line-height: 22px;
-text-transform: uppercase;
-font-weight: bold;
-color: #747474;
-display: block;
-padding-top: 17px;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #747474;
+	display: block;
+	padding-top: 17px;
 }
 
 .ba-about__services__menu__element__botton:hover{
-background-color: #DBDBDB;
+	background-color: #DBDBDB;
 }
 
 .ba-about__services__text{
-display: block;
-padding-top: 12px;
-font-size: 14px;
-line-height: 22px;
+	display: block;
+	padding-top: 12px;
+	font-size: 14px;
+	line-height: 22px;
 }
 
 .ba-about__services__list{
-display: block;
-padding: 1px 0 28px 0;
-list-style-type: none;
+	display: block;
+	padding: 1px 0 28px 0;
+	list-style-type: none;
 }
 
 .ba-about__services__element{
-padding-left: 38px;
-display: block;
-position: relative;
-font-size: 14px;
-line-height: 25px;
+	padding-left: 38px;
+	display: block;
+	position: relative;
+	font-size: 14px;
+	line-height: 25px;
 }
 
 .ba-about__services__element:before{
-content: "";
-position: absolute;
-display: inline-block;
-height: 10px;
-width: 7px;
-background: url("../img/right-list.png") 50% no-repeat;
-top: 7px;
-left: 20px;
+	content: "";
+	position: absolute;
+	display: inline-block;
+	height: 10px;
+	width: 7px;
+	background: url("../img/right-list.png") 50% no-repeat;
+	top: 7px;
+	left: 20px;
 }
 
+/*--------------------------------------------------about---------------------------------------------------------------*/
 
 
+.ba-contact__head{
+	height: 100px;
+	background: #00CD6B;
+	line-height: 100px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFF;
+	text-transform: uppercase;
+}
 
+#googleMap{
+	width: 100%;
+	height: 498px;
+}
+
+.ba-contact__inf{
+	padding-top: 48px;
+padding-bottom: 36px;
+}
+
+.ba-contact__inf__head{
+	font-size: 24px;
+	line-height: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.ba-contact__inf__text{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 17px;
+	margin-bottom: 24px;
+}
+
+.ba-contact__inf__form__element{
+	padding-bottom: 15px;
+}
+
+#message{
+height: 220px;
+width: 560px;
+}
+
+/*contacts*/
 
 
 
