@@ -54,10 +54,10 @@ select {
 	outline:none;
 	border: 2px solid #8C8989;
 	font-size: 14px;
-display: inline-block;
-height: 45px;
-width: 350px;
-padding-left: 15px;
+	display: inline-block;
+	height: 45px;
+	width: 350px;
+	padding-left: 15px;
 
 
 	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
@@ -927,7 +927,7 @@ select:focus {
 
 .ba-contact__inf{
 	padding-top: 48px;
-padding-bottom: 36px;
+	padding-bottom: 36px;
 }
 
 .ba-contact__inf__head{
@@ -949,15 +949,75 @@ padding-bottom: 36px;
 }
 
 #message{
-height: 220px;
-width: 560px;
+	height: 220px;
+	width: 560px;
 }
 
 /*contacts*/
 
+.ba-contact__inf__contact-leftpad{
+	padding-left: 32px;
+}
 
+.ba-contact__inf__text-left{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 17px;
+	margin-bottom: 0;
+}
 
+.ba-contact__inf__contact__email{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
 
+.ba-contact__inf__contact__email__link{
+	text-decoration: none;
+	color: #00CD6B;
+	font-weight: 400;
+}
+
+.ba-contact__inf__contact__phone{
+	display: block;
+	margin-top: 2px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.ba-contact__inf__contact__phone__number{
+	text-decoration: none;
+	color: #00CD6B;
+	font-weight: 400;
+}
+
+.ba-contact__inf__contact__address{
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	font-style: normal;
+	padding-top: 8px;
+}
+
+.ba-contact__inf__head__shedule{
+display: block;
+font-size: 24px;
+	line-height: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 43px;
+}
+
+.ba-contact__inf__shedule{
+display: block;
+margin-top: 22px;
+}
+
+td:first-child{
+display: inline-block;
+margin-right: 60px;
+}
 
 
 
